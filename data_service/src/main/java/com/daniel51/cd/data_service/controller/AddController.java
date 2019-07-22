@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AddController {
     @RequestMapping("/add")
-    public int add(int a, int b){
+    public int add(int a, int b) {
         return 2;
     }
+    
 }
