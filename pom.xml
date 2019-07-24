@@ -10,9 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>data_warehouse</module>
-        <module>daniel_common</module>
         <module>recommend_sys</module>
         <module>user_profile</module>
+        <module>daniel_common</module>
+        <module>data_service</module>
     </modules>
 
     <properties>
