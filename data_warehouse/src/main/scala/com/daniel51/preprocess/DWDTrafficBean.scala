@@ -1,0 +1,31 @@
+package com.daniel51.preprocess
+
+case class DWDTrafficBean(
+                            cookieid: String,
+                            account: String,
+                            imei: String,
+                            osName: String,
+                            osVer: String,
+                            resolution: String,
+                            androidId: String,
+                            manufacture: String,
+                            deviceId: String,
+                            appid: String,
+                            appVer: String,
+                            release_ch: String,
+                            promotion_ch: String,
+                            areacode: String,
+                            longtitude: Double,
+                            latitude: Double,
+                            carrier: String,
+                            netType: String,
+                            sessionId: String,
+                            eventType: String,
+                            commit_time: Long,
+                            province:String ,
+                            city:String ,
+                            district:String ,
+                            biz:String ,
+                            urlct:String,
+                            dateStr:String
+                          )

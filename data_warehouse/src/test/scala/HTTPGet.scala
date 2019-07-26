@@ -21,8 +21,8 @@ object HTTPGet {
     val response: CloseableHttpResponse = client.execute(get)
     val content: InputStream = response.getEntity.getContent
     val strings: util.List[String] = IOUtils.readLines(content)
-    import scala.collection.JavaConversions._
-    println(strings.toString)
+//    import scala.collection.JavaConversons._
+//    println(strings.mkString)
   }
 
 }
